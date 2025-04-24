@@ -1,46 +1,31 @@
-YOLO Object Detection Streamlit App
-A Streamlit web app for real-time object detection in videos using YOLOv8.
-Features
+# YOLO Object Detection Streamlit App
+<!-- Replace with your actual logo URL -->
 
-Upload and process videos (MP4, AVI, MOV).
-Real-time object detection with YOLOv8.
-Visualizations: object count, confidence scores, and dwell time.
-User-friendly interface with custom styling.
+Welcome to **YOLO Object Detection Streamlit App**, a powerful platform for real-time object detection in videos using the YOLOv8 model. Built with Streamlit, this application provides an intuitive interface for processing videos, annotating detected objects, and visualizing key metrics like object counts and confidence scores.
 
-Technologies
+## ✨ Features
+- **Video Upload & Processing**: Supports MP4, AVI, and MOV formats for seamless video analysis.
+- **Real-Time Object Detection**: Utilizes YOLOv8 for accurate and efficient object detection.
+- **Dynamic Visualizations**: Displays object count over time, confidence scores, and dwell time in real-time charts.
+- **User-Friendly Interface**: Sleek Streamlit-based frontend with custom CSS styling.
+- **Interactive Controls**: Start and stop video processing with a single click.
 
-Python, Streamlit, YOLOv8, OpenCV, Matplotlib, NumPy.
+## 🛠️ Tech Stack
+- **Frontend**: Streamlit
+- **Backend**: Python, OpenCV
+- **Machine Learning**: YOLOv8 (Ultralytics)
+- **Data Visualization**: Matplotlib, NumPy
+- **Development Tools**: pip, virtualenv
 
-Installation
+## 🚀 Getting Started
 
-Clone the repo:git clone https://github.com/your-username/yolo-object-detection-streamlit.git
-cd yolo-object-detection-streamlit
+### Prerequisites
+- **Python 3.8+**: Install from [python.org](https://www.python.org/)
+- **Git**: For cloning the repository [git-scm.com](https://git-scm.com/)
 
+### Installation
 
-Set up a virtual environment:python -m venv venv
-source venv/bin/activate
-
-
-Install dependencies:pip install -r requirements.txt
-
-
-Add YOLOv8 weights (yolov8n.pt) to yolo-Weights/.
-Run the app:streamlit run app.py
-
-
-
-Usage
-
-Upload a video via the sidebar.
-View annotated video and real-time charts.
-Stop processing with the sidebar button.
-
-Contributing
-Fork, create a branch, commit changes, and open a Pull Request.
-License
-MIT License. See LICENSE.
-Contact
-
-Email: your-email@example.com
-GitHub: your-username
-
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/yolo-object-detection-streamlit.git
+   cd yolo-object-detection-streamlit
